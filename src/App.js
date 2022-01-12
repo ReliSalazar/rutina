@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
-const audio = new Audio("alarm.mp3");
+const audio = new Audio(
+  "https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3"
+);
 const maxSessions = 14;
 const tasks = [
   { name: "rodillas", time: 15 },

@@ -11,7 +11,7 @@
 }
 
 .container {
-  border: 1px solid white;
+  border: 1px solid #fff;
   padding: 2rem;
   gap: 1rem;
 }
@@ -22,10 +22,13 @@ hr {
 
 button {
   border: none;
-  background-color: #00acc1;
+  background-color: #81559b;
   color: white;
-  padding: 0.2rem 1rem;
+  padding: 0.2rem 1rem 0.5rem 1rem;
   font-size: 1rem;
+}
+button:hover {
+  cursor: pointer;
 }
 
 .timebar {
